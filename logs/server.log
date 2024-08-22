@@ -1,0 +1,38 @@
+2024-08-22 14:02:31,487 - root - INFO - Model Path: /Users/raghunaik/vscodeworkspace/ultimate_challenge/models/intent_classification1.keras
+2024-08-22 14:02:31,487 - root - INFO - Model Path: /Users/raghunaik/vscodeworkspace/ultimate_challenge/models/intent_classification1.keras
+2024-08-22 14:02:31,790 - root - INFO - Model loaded
+2024-08-22 14:02:31,790 - root - INFO - Model loaded
+2024-08-22 14:02:31,825 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.101:8080
+2024-08-22 14:02:31,825 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.101:8080
+2024-08-22 14:02:31,825 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-22 14:02:31,825 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-22 14:04:22,332 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /apidocs/ HTTP/1.1" 200 -
+2024-08-22 14:04:22,332 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /apidocs/ HTTP/1.1" 200 -
+2024-08-22 14:04:22,353 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-08-22 14:04:22,353 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-08-22 14:04:22,355 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-08-22 14:04:22,355 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-08-22 14:04:22,360 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-08-22 14:04:22,360 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-08-22 14:04:22,379 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-08-22 14:04:22,379 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-08-22 14:04:22,511 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-08-22 14:04:22,511 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:04:22] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-08-22 14:05:47,110 - root - INFO - Received request data: {'text': 'flight'}
+2024-08-22 14:05:47,110 - root - INFO - Received request data: {'text': 'flight'}
+2024-08-22 14:05:47,468 - root - INFO - Prediction result: {'intents': [{'label': 'misc_info', 'confidence': 0.44}, {'label': 'flight_info', 'confidence': 0.21}, {'label': 'airfare_info', 'confidence': 0.13}]}
+2024-08-22 14:05:47,468 - root - INFO - Prediction result: {'intents': [{'label': 'misc_info', 'confidence': 0.44}, {'label': 'flight_info', 'confidence': 0.21}, {'label': 'airfare_info', 'confidence': 0.13}]}
+2024-08-22 14:05:47,468 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:05:47] "POST /intent HTTP/1.1" 200 -
+2024-08-22 14:05:47,468 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:05:47] "POST /intent HTTP/1.1" 200 -
+2024-08-22 14:06:09,758 - root - INFO - Received request data: {'text': 'flight from india to us'}
+2024-08-22 14:06:09,758 - root - INFO - Received request data: {'text': 'flight from india to us'}
+2024-08-22 14:06:09,840 - root - INFO - Prediction result: {'intents': [{'label': 'flight_info', 'confidence': 1.0}, {'label': 'location_info', 'confidence': 0.0}, {'label': 'airfare_info', 'confidence': 0.0}]}
+2024-08-22 14:06:09,840 - root - INFO - Prediction result: {'intents': [{'label': 'flight_info', 'confidence': 1.0}, {'label': 'location_info', 'confidence': 0.0}, {'label': 'airfare_info', 'confidence': 0.0}]}
+2024-08-22 14:06:09,840 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:06:09] "POST /intent HTTP/1.1" 200 -
+2024-08-22 14:06:09,840 - werkzeug - INFO - 127.0.0.1 - - [22/Aug/2024 14:06:09] "POST /intent HTTP/1.1" 200 -
